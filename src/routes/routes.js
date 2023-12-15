@@ -10,7 +10,7 @@ import Typography from 'src/pages/Typography.vue'
 import Icons from 'src/pages/Icons.vue'
 import Maps from 'src/pages/Maps.vue'
 import Notifications from 'src/pages/Notifications.vue'
-import Upgrade from 'src/pages/Upgrade.vue'
+import SchedulerComponent from 'src/components/SchedulerComponent.vue'
 
 const routes = [
   {
@@ -27,6 +27,11 @@ const routes = [
         path: 'overview',
         name: 'Overview',
         component: Overview
+      },
+      {
+        path: 'Scheduler',
+        name: 'Planilla',
+        component: SchedulerComponent
       },
       {
         path: 'user',
@@ -57,11 +62,6 @@ const routes = [
         path: 'notifications',
         name: 'Notifications',
         component: Notifications
-      },
-      {
-        path: 'upgrade',
-        name: 'Upgrade to PRO',
-        component: Upgrade
       }
     ]
   },

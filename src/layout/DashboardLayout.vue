@@ -6,6 +6,10 @@
         <i class="nc-icon nc-chart-pie-35"></i>
         <p>Dashboard</p>
       </sidebar-link>
+      <sidebar-link to="/admin/Scheduler">
+        <i class="nc-icon nc-chart-pie-35"></i>
+        <p>Planilla</p>
+      </sidebar-link>
       <sidebar-link to="/admin/user">
         <i class="nc-icon nc-circle-09"></i>
         <p>User Profile</p>
@@ -31,13 +35,6 @@
         <p>Notifications</p>
       </sidebar-link>
 
-      <template slot="bottom-links">
-        <sidebar-link class="active"
-                      to="/admin/upgrade">
-          <i class="nc-icon nc-alien-33"></i>
-          <p>Upgrade to PRO</p>
-        </sidebar-link>
-      </template>
     </side-bar>
     <div class="main-panel">
       <top-navbar></top-navbar>
@@ -58,12 +55,14 @@
   import ContentFooter from './ContentFooter.vue'
   import DashboardContent from './Content.vue'
   import MobileMenu from './MobileMenu.vue'
+  import SchedulerComponent from 'src/components/SchedulerComponent.vue'
   export default {
     components: {
       TopNavbar,
       ContentFooter,
       DashboardContent,
-      MobileMenu
+      MobileMenu,
+      SchedulerComponent
     },
     methods: {
       toggleSidebar () {
