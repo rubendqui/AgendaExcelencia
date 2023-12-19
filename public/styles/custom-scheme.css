@@ -1,56 +1,56 @@
 :root { 
-   --jqx-accent-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-background-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-header-text-color-custom-scheme: rgba(2, 2, 2, 1);
+   --jqx-accent-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-background-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-header-text-color-custom-scheme: rgba(117, 117, 117, 1);
    --jqx-header-background-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-border-color-custom-scheme: rgba(164, 161, 161, 1);
+   --jqx-border-color-custom-scheme: rgba(224, 224, 224, 1);
    --jqx-border-radius-custom-scheme: 2px;
    --jqx-font-family-custom-scheme: "Roboto", "Helvetice Neue", "Helvetica", "Arial", sans-serif;
    --jqx-font-size-custom-scheme: 14px;
    --jqx-hovered-state-text-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-hovered-state-background-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-hovered-state-content-text-color-custom-scheme: rgba(7, 173, 7, 1);
+   --jqx-hovered-state-background-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-hovered-state-content-text-color-custom-scheme: rgba(51, 51, 51, 1);
    --jqx-hovered-state-content-background-color-custom-scheme: rgba(245, 245, 245, 1);
    --jqx-focused-state-text-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-focused-state-background-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-active-state-text-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-active-state-background-color-custom-scheme: rgba(85, 139, 47, 0.2);
+   --jqx-focused-state-background-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-active-state-text-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-active-state-background-color-custom-scheme: rgba(0, 119, 190, 0.2);
    --jqx-arrow-up-color-custom-scheme: url('images/metro-icon-up.png');
    --jqx-arrow-down-color-custom-scheme: url('images/metro-icon-down.png');
    --jqx-arrow-up-hovered-color-custom-scheme: url('images/metro-icon-up.png');
    --jqx-arrow-down-hovered-color-custom-scheme: url('images/metro-icon-down.png');
    --jqx-arrow-up-selected-color-custom-scheme: url('images/metro-icon-up-white.png');
    --jqx-arrow-down-selected-color-custom-scheme: url('images/metro-icon-down-white.png');
-   --jqx-accordion-item-title-text-color-custom-scheme: rgba(2, 2, 2, 1);
+   --jqx-accordion-item-title-text-color-custom-scheme: rgba(117, 117, 117, 1);
    --jqx-accordion-item-title-background-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-accordion-item-title-border-color-custom-scheme: rgba(164, 161, 161, 1);
+   --jqx-accordion-item-title-border-color-custom-scheme: rgba(224, 224, 224, 1);
    --jqx-accordion-item-title-hovered-text-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-accordion-item-title-hovered-background-color-custom-scheme: rgba(85, 139, 47, 1);
+   --jqx-accordion-item-title-hovered-background-color-custom-scheme: rgba(0, 119, 190, 1);
    --jqx-accordion-item-title-hovered-border-color-custom-scheme: rgba(224, 224, 224, 1);
    --jqx-accordion-item-title-selected-text-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-accordion-item-title-selected-background-color-custom-scheme: rgba(85, 139, 47, 1);
+   --jqx-accordion-item-title-selected-background-color-custom-scheme: rgba(0, 119, 190, 1);
    --jqx-accordion-item-title-selected-border-color-custom-scheme: rgba(224, 224, 224, 1);
-   --jqx-accordion-item-title-focused-border-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-accordion-item-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-accordion-item-background-color-custom-scheme: rgba(236, 251, 236, 1);
+   --jqx-accordion-item-title-focused-border-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-accordion-item-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-accordion-item-background-color-custom-scheme: rgba(255, 255, 255, 1);
    --jqx-accordion-item-focused-text-color-custom-scheme: rgba(85, 85, 85, 1);
    --jqx-accordion-item-focused-background-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-accordion-item-focused-border-color-custom-scheme: rgba(85, 139, 47, 1);
+   --jqx-accordion-item-focused-border-color-custom-scheme: rgba(0, 119, 190, 1);
    --jqx-accordion-arrow-up-color-custom-scheme: url('images/metro-icon-up.png');
    --jqx-accordion-arrow-down-color-custom-scheme: url('images/metro-icon-down.png');
    --jqx-accordion-arrow-up-hovered-color-custom-scheme: url('images/metro-icon-up.png');
    --jqx-accordion-arrow-down-hovered-color-custom-scheme: url('images/metro-icon-down.png');
    --jqx-accordion-arrow-up-selected-color-custom-scheme: url('images/metro-icon-up-white.png');
    --jqx-accordion-arrow-down-selected-color-custom-scheme: url('images/metro-icon-down-white.png');
-   --jqx-button-default-text-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-button-default-background-color-custom-scheme: rgba(85, 139, 47, 1);
+   --jqx-button-default-text-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-button-default-background-color-custom-scheme: rgba(0, 119, 190, 1);
    --jqx-button-default-hovered-state-text-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-button-default-hovered-state-background-color-custom-scheme: rgba(85, 139, 47, 1);
+   --jqx-button-default-hovered-state-background-color-custom-scheme: rgba(0, 119, 190, 1);
    --jqx-button-default-focused-state-text-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-button-default-focused-state-background-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-button-default-active-state-text-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-button-default-active-state-background-color-custom-scheme: rgba(85, 139, 47, 0.2);
+   --jqx-button-default-focused-state-background-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-button-default-active-state-text-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-button-default-active-state-background-color-custom-scheme: rgba(0, 119, 190, 0.2);
    --jqx-button-primary-text-color-custom-scheme: rgba(28, 168, 221, 1);
    --jqx-button-primary-background-color-custom-scheme: rgba(255, 255, 255, 1);
    --jqx-button-primary-hovered-state-text-color-custom-scheme: rgba(255, 255, 255, 1);
@@ -91,52 +91,52 @@
    --jqx-button-info-focused-state-background-color-custom-scheme: rgba(91, 192, 222, 1);
    --jqx-button-info-active-state-text-color-custom-scheme: rgba(255, 255, 255, 1);
    --jqx-button-info-active-state-background-color-custom-scheme: rgba(91, 192, 222, 1);
-   --jqx-editors-text-editors-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-editors-text-editors-background-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-editors-text-editors-border-color-custom-scheme: rgba(164, 161, 161, 1);
+   --jqx-editors-text-editors-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-editors-text-editors-background-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-editors-text-editors-border-color-custom-scheme: rgba(224, 224, 224, 1);
    --jqx-editors-text-editors-border-radius-custom-scheme: 2px;
-   --jqx-editors-text-editors-focused-border-color-custom-scheme: rgba(85, 139, 47, 1);
+   --jqx-editors-text-editors-focused-border-color-custom-scheme: rgba(0, 119, 190, 1);
    --jqx-editors-datеtimeinput-calendar-icon-color-custom-scheme: url('images/icon-calendar.png');
    --jqx-editors-datеtimeinput-calendar-icon-selected-color-custom-scheme: url('images/icon-calendar.png');
-   --jqx-editors-combobox-multi-item-text-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-editors-combobox-multi-item-background-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-editors-calendar-header-text-color-custom-scheme: rgba(2, 2, 2, 1);
+   --jqx-editors-combobox-multi-item-text-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-editors-combobox-multi-item-background-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-editors-calendar-header-text-color-custom-scheme: rgba(117, 117, 117, 1);
    --jqx-editors-calendar-header-background-color-custom-scheme: rgba(255, 255, 255, 1);
    --jqx-editors-calendar-arrow-left-color-custom-scheme: url('images/metro-icon-left.png');
    --jqx-editors-calendar-arrow-right-color-custom-scheme: url('images/metro-icon-right.png');
-   --jqx-editors-calendar-background-color-custom-scheme: rgba(236, 251, 236, 1);
+   --jqx-editors-calendar-background-color-custom-scheme: rgba(255, 255, 255, 1);
    --jqx-editors-calendar-today-cell-text-color-custom-scheme: rgba(85, 85, 85, 1);
    --jqx-editors-calendar-today-cell-background-color-custom-scheme: rgba(255, 255, 219, 1);
    --jqx-editors-calendar-today-cell-border-color-custom-scheme: rgba(253, 192, 102, 1);
-   --jqx-editors-calendar-current-month-text-color-custom-scheme: rgba(0, 0, 0, 1);
+   --jqx-editors-calendar-current-month-text-color-custom-scheme: rgba(85, 85, 85, 1);
    --jqx-editors-calendar-other-month-text-color-custom-scheme: rgba(137, 137, 137, 1);
-   --jqx-editors-calendar-hovered-cell-text-color-custom-scheme: rgba(7, 173, 7, 1);
+   --jqx-editors-calendar-hovered-cell-text-color-custom-scheme: rgba(51, 51, 51, 1);
    --jqx-editors-calendar-hovered-cell-background-color-custom-scheme: rgba(245, 245, 245, 1);
-   --jqx-editors-calendar-selected-cell-text-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-editors-calendar-selected-cell-background-color-custom-scheme: rgba(85, 139, 47, 0.2);
-   --jqx-editors-switch-thumb-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-editors-switch-on-label-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-editors-switch-on-label-background-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-editors-switch-off-label-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-editors-switch-off-label-background-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-editors-file-uploader-background-color-custom-scheme: rgba(236, 251, 236, 1);
+   --jqx-editors-calendar-selected-cell-text-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-editors-calendar-selected-cell-background-color-custom-scheme: rgba(0, 119, 190, 0.2);
+   --jqx-editors-switch-thumb-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-editors-switch-on-label-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-editors-switch-on-label-background-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-editors-switch-off-label-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-editors-switch-off-label-background-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-editors-file-uploader-background-color-custom-scheme: rgba(255, 255, 255, 1);
    --jqx-editors-file-uploader-filename-text-color-custom-scheme: rgba(85, 85, 85, 1);
-   --jqx-grid-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-grid-background-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-grid-header-text-color-custom-scheme: rgba(2, 2, 2, 1);
+   --jqx-grid-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-grid-background-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-grid-header-text-color-custom-scheme: rgba(117, 117, 117, 1);
    --jqx-grid-header-text-weight-custom-scheme: normal;
    --jqx-grid-header-background-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-grid-row-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-grid-row-background-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-grid-row-alternation-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-grid-row-alternation-background-color-custom-scheme: rgba(236, 251, 236, 0.5);
-   --jqx-grid-hovered-row-text-color-custom-scheme: rgba(7, 173, 7, 1);
+   --jqx-grid-row-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-grid-row-background-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-grid-row-alternation-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-grid-row-alternation-background-color-custom-scheme: rgba(249, 249, 249, 1);
+   --jqx-grid-hovered-row-text-color-custom-scheme: rgba(51, 51, 51, 1);
    --jqx-grid-hovered-row-background-color-custom-scheme: rgba(245, 245, 245, 1);
-   --jqx-grid-selected-row-text-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-grid-selected-row-background-color-custom-scheme: rgba(85, 139, 47, 0.2);
-   --jqx-grid-selected-row-border-color-custom-scheme: rgba(85, 139, 47, 0.2);
+   --jqx-grid-selected-row-text-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-grid-selected-row-background-color-custom-scheme: rgba(0, 119, 190, 0.2);
+   --jqx-grid-selected-row-border-color-custom-scheme: rgba(0, 119, 190, 0.2);
    --jqx-grid-group-row-text-color-custom-scheme: rgba(85, 85, 85, 1);
-   --jqx-grid-group-row-background-color-custom-scheme: rgba(236, 251, 236, 1);
+   --jqx-grid-group-row-background-color-custom-scheme: rgba(255, 255, 255, 1);
    --jqx-grid-editor-text-color-custom-scheme: rgba(85, 85, 85, 1);
    --jqx-grid-editor-background-color-custom-scheme: rgba(255, 255, 255, 1);
    --jqx-grid-pinned-cells-background-color-custom-scheme: rgba(229, 229, 229, 1);
@@ -156,86 +156,86 @@
    --jqx-grid-groups-arrow-down-color-custom-scheme: url('images/metro-icon-down.png');
    --jqx-grid-groups-arrow-right-color-custom-scheme: url('images/metro-icon-right.png');
    --jqx-grid-groups-arrow-left-color-custom-scheme: url('images/metro-icon-left.png');
-   --jqx-list-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-list-background-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-list-header-text-color-custom-scheme: rgba(2, 2, 2, 1);
+   --jqx-list-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-list-background-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-list-header-text-color-custom-scheme: rgba(117, 117, 117, 1);
    --jqx-list-header-background-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-list-hovered-item-state-text-color-custom-scheme: rgba(7, 173, 7, 1);
+   --jqx-list-hovered-item-state-text-color-custom-scheme: rgba(51, 51, 51, 1);
    --jqx-list-hovered-item-state-background-color-custom-scheme: rgba(245, 245, 245, 1);
-   --jqx-list-selected-item-state-text-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-list-selected-item-state-background-color-custom-scheme: rgba(85, 139, 47, 0.2);
+   --jqx-list-selected-item-state-text-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-list-selected-item-state-background-color-custom-scheme: rgba(0, 119, 190, 0.2);
    --jqx-list-arrow-left-color-custom-scheme: url('images/metro-icon-left.png');
    --jqx-list-arrow-right-color-custom-scheme: url('images/metro-icon-right.png');
    --jqx-list-arrow-left-selected-color-custom-scheme: url('images/metro-icon-left-white.png');
    --jqx-list-arrow-right-selected-color-custom-scheme: url('images/metro-icon-right-white.png');
-   --jqx-menu-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-menu-background-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-menu-dropdown-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-menu-dropdown-background-color-custom-scheme: rgba(236, 251, 236, 1);
+   --jqx-menu-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-menu-background-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-menu-dropdown-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-menu-dropdown-background-color-custom-scheme: rgba(255, 255, 255, 1);
    --jqx-menu-arrow-up-color-custom-scheme: url('images/metro-icon-up.png');
    --jqx-menu-arrow-down-color-custom-scheme: url('images/metro-icon-down.png');
    --jqx-menu-arrow-left-color-custom-scheme: url('images/metro-icon-left.png');
    --jqx-menu-arrow-right-color-custom-scheme: url('images/metro-icon-right.png');
-   --jqx-menu-hovered-item-color-custom-scheme: rgba(7, 173, 7, 1);
+   --jqx-menu-hovered-item-color-custom-scheme: rgba(51, 51, 51, 1);
    --jqx-menu-hovered-item-background-color-custom-scheme: rgba(245, 245, 245, 1);
-   --jqx-menu-selected-item-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-menu-selected-item-background-color-custom-scheme: rgba(85, 139, 47, 0.2);
-   --jqx-menu-selected-item-border-color-custom-scheme: rgba(85, 139, 47, 0.2);
+   --jqx-menu-selected-item-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-menu-selected-item-background-color-custom-scheme: rgba(0, 119, 190, 0.2);
+   --jqx-menu-selected-item-border-color-custom-scheme: rgba(0, 119, 190, 0.2);
    --jqx-menu-arrow-up-selected-color-custom-scheme: url('images/metro-icon-up-white.png');
    --jqx-menu-arrow-down-selected-color-custom-scheme: url('images/metro-icon-down-white.png');
    --jqx-menu-arrow-left-selected-color-custom-scheme: url('images/metro-icon-left-white.png');
    --jqx-menu-arrow-right-selected-color-custom-scheme: url('images/metro-icon-right-white.png');
-   --jqx-navbar-item-text-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-navbar-item-background-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-navbar-hovered-item-text-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-navbar-hovered-item-background-color-custom-scheme: rgba(85, 139, 47, 0.9);
-   --jqx-navbar-selected-item-text-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-navbar-selected-item-background-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-overlays-content-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-overlays-content-background-color-custom-scheme: rgba(236, 251, 236, 1);
+   --jqx-navbar-item-text-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-navbar-item-background-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-navbar-hovered-item-text-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-navbar-hovered-item-background-color-custom-scheme: rgba(0, 119, 190, 0.9);
+   --jqx-navbar-selected-item-text-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-navbar-selected-item-background-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-overlays-content-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-overlays-content-background-color-custom-scheme: rgba(255, 255, 255, 1);
    --jqx-overlays-shader-background-color-custom-scheme: rgba(0, 0, 0, 0.6);
-   --jqx-overlays-popup-header-text-color-custom-scheme: rgba(2, 2, 2, 1);
+   --jqx-overlays-popup-header-text-color-custom-scheme: rgba(117, 117, 117, 1);
    --jqx-overlays-popup-header-background-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-overlays-tooltip-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-overlays-tooltip-background-color-custom-scheme: rgba(236, 251, 236, 1);
+   --jqx-overlays-tooltip-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-overlays-tooltip-background-color-custom-scheme: rgba(255, 255, 255, 1);
    --jqx-overlays-toast-text-color-custom-scheme: rgba(255, 255, 255, 1);
    --jqx-overlays-toast-info-background-color-custom-scheme: rgba(91, 192, 222, 1);
    --jqx-overlays-toast-warning-background-color-custom-scheme: rgba(240, 173, 78, 1);
    --jqx-overlays-toast-error-background-color-custom-scheme: rgba(217, 83, 79, 1);
    --jqx-overlays-toast-success-background-color-custom-scheme: rgba(92, 184, 92, 1);
-   --jqx-pivotgrid-header-text-color-custom-scheme: rgba(2, 2, 2, 1);
+   --jqx-pivotgrid-header-text-color-custom-scheme: rgba(117, 117, 117, 1);
    --jqx-pivotgrid-header-background-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-pivotgrid-cell-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-pivotgrid-cell-background-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-pivotgrid-selected-cell-text-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-pivotgrid-selected-cell-background-color-custom-scheme: rgba(85, 139, 47, 0.2);
+   --jqx-pivotgrid-cell-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-pivotgrid-cell-background-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-pivotgrid-selected-cell-text-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-pivotgrid-selected-cell-background-color-custom-scheme: rgba(0, 119, 190, 0.2);
    --jqx-pivotgrid-arrow-up-color-custom-scheme: url('images/metro-icon-up.png');
    --jqx-pivotgrid-arrow-down-color-custom-scheme: url('images/metro-icon-down.png');
    --jqx-pivotgrid-menu-button-color-custom-scheme: url('images/icon-menu-small.png');
-   --jqx-progressbar-bar-background-color-custom-scheme: rgba(236, 251, 236, 1);
-   --jqx-progressbar-selected-range-background-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-progressbar-label-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-scheduler-header-text-color-custom-scheme: rgba(2, 2, 2, 1);
-   --jqx-scheduler-header-background-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-scheduler-header-border-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-scheduler-header-buttons-text-color-custom-scheme: rgba(255, 252, 252, 1);
-   --jqx-scheduler-header-buttons-background-color-custom-scheme: rgba(85, 139, 47, 1);
+   --jqx-progressbar-bar-background-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-progressbar-selected-range-background-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-progressbar-label-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-scheduler-header-text-color-custom-scheme: rgba(0, 0, 0, 1);
+   --jqx-scheduler-header-background-color-custom-scheme: rgba(236, 239, 248, 1);
+   --jqx-scheduler-header-border-color-custom-scheme: rgba(205, 203, 203, 1);
+   --jqx-scheduler-header-buttons-text-color-custom-scheme: rgba(255, 255, 255, 1);
+   --jqx-scheduler-header-buttons-background-color-custom-scheme: rgba(38, 120, 157, 1);
    --jqx-scheduler-header-buttons-hovered-text-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-scheduler-header-buttons-hovered-background-color-custom-scheme: rgba(85, 139, 47, 1);
+   --jqx-scheduler-header-buttons-hovered-background-color-custom-scheme: rgba(0, 119, 190, 1);
    --jqx-scheduler-header-buttons-selected-text-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-scheduler-header-buttons-selected-background-color-custom-scheme: rgba(193, 224, 173, 1);
-   --jqx-scheduler-border-color-custom-scheme: rgba(208, 204, 204, 1);
-   --jqx-scheduler-not-work-time-cells-color-custom-scheme: rgba(255, 252, 252, 1);
-   --jqx-scheduler-hovered-cell-background-color-custom-scheme: rgba(193, 224, 173, 1);
+   --jqx-scheduler-header-buttons-selected-background-color-custom-scheme: rgba(146, 124, 130, 1);
+   --jqx-scheduler-border-color-custom-scheme: rgba(214, 214, 214, 1);
+   --jqx-scheduler-not-work-time-cells-color-custom-scheme: rgba(158, 177, 221, 1);
+   --jqx-scheduler-hovered-cell-background-color-custom-scheme: rgba(245, 245, 245, 1);
    --jqx-scheduler-hovered-cell-border-color-custom-scheme: rgba(245, 245, 245, 1);
-   --jqx-scheduler-selected-cell-background-color-custom-scheme: rgba(97, 144, 73, 0.2);
-   --jqx-scheduler-selected-cell-border-color-custom-scheme: rgba(85, 139, 47, 0.2);
+   --jqx-scheduler-selected-cell-background-color-custom-scheme: rgba(3, 76, 134, 0.2);
+   --jqx-scheduler-selected-cell-border-color-custom-scheme: rgba(0, 119, 190, 0.2);
    --jqx-scheduler-weeks-arrow-right-color-custom-scheme: url('images/metro-icon-right.png');
    --jqx-scheduler-weeks-arrow-left-color-custom-scheme: url('images/metro-icon-left.png');
    --jqx-scheduler-weeks-arrow-right-selected-color-custom-scheme: url('images/metro-icon-right.png');
    --jqx-scheduler-weeks-arrow-left-selected-color-custom-scheme: url('images/metro-icon-left.png');
    --jqx-scheduler-calendar-icon-color-custom-scheme: url('images/icon-calendar.png');
-   --jqx-scheduler-calendar-icon-selected-color-custom-scheme: url('images/icon-calendar-white.png');
+   -jqx-light-scheduler-calendar-icon-selected-color: url('images/icon-calendar.png');
    --jqx-scrollbar-scrollbar-background-color-custom-scheme: rgba(245, 245, 245, 1);
    --jqx-scrollbar-scrollbar-thumb-background-color-custom-scheme: rgba(245, 245, 245, 1);
    --jqx-scrollbar-scrollbar-thumb-hovered-background-color-custom-scheme: rgba(230, 230, 230, 1);
@@ -258,15 +258,15 @@
    --jqx-scrollview-indicator-background-color-custom-scheme: rgba(250, 250, 250, 1);
    --jqx-scrollview-selected-indicator-background-color-custom-scheme: rgba(250, 250, 250, 1);
    --jqx-slider-slider-bar-background-color-custom-scheme: rgba(240, 240, 240, 1);
-   --jqx-slider-selected-slider-background-color-custom-scheme: rgba(85, 139, 47, 0.2);
-   --jqx-slider-slider-thumb-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-slider-focused-border-color-custom-scheme: rgba(85, 139, 47, 1);
+   --jqx-slider-selected-slider-background-color-custom-scheme: rgba(0, 119, 190, 0.2);
+   --jqx-slider-slider-thumb-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-slider-focused-border-color-custom-scheme: rgba(0, 119, 190, 1);
    --jqx-slider-tooltip-text-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-slider-tooltip-background-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-slider-tooltip-border-color-custom-scheme: rgba(164, 161, 161, 1);
+   --jqx-slider-tooltip-background-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-slider-tooltip-border-color-custom-scheme: rgba(224, 224, 224, 1);
    --jqx-slider-arrows-background-color-custom-scheme: rgba(255, 255, 255, 0);
-   --jqx-slider-arrows-hovered-background-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-slider-arrows-selected-background-color-custom-scheme: rgba(85, 139, 47, 0.2);
+   --jqx-slider-arrows-hovered-background-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-slider-arrows-selected-background-color-custom-scheme: rgba(0, 119, 190, 0.2);
    --jqx-slider-arrow-left-color-custom-scheme: url('images/metro-icon-left.png');
    --jqx-slider-arrow-right-color-custom-scheme: url('images/metro-icon-right.png');
    --jqx-slider-arrow-left-hovered-color-custom-scheme: url('images/metro-icon-left.png');
@@ -274,22 +274,22 @@
    --jqx-slider-arrow-left-selected-color-custom-scheme: url('images/metro-icon-left-white.png');
    --jqx-slider-arrow-right-selected-color-custom-scheme: url('images/metro-icon-right-white.png');
    --jqx-tabs-header-background-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-tabs-tab-text-color-custom-scheme: rgba(2, 2, 2, 1);
+   --jqx-tabs-tab-text-color-custom-scheme: rgba(117, 117, 117, 1);
    --jqx-tabs-hovered-tab-text-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-tabs-hovered-tab-background-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-tabs-selected-tab-text-color-custom-scheme: rgba(85, 139, 47, 1);
+   --jqx-tabs-hovered-tab-background-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-tabs-selected-tab-text-color-custom-scheme: rgba(0, 119, 190, 1);
    --jqx-tabs-selected-tab-background-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-tabs-selected-tab-bottom-border-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-tabs-border-color-custom-scheme: rgba(164, 161, 161, 1);
-   --jqx-tabs-content-text-color-custom-scheme: rgba(0, 0, 0, 1);
-   --jqx-tabs-content-background-color-custom-scheme: rgba(236, 251, 236, 1);
+   --jqx-tabs-selected-tab-bottom-border-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-tabs-border-color-custom-scheme: rgba(224, 224, 224, 1);
+   --jqx-tabs-content-text-color-custom-scheme: rgba(85, 85, 85, 1);
+   --jqx-tabs-content-background-color-custom-scheme: rgba(255, 255, 255, 1);
    --jqx-tabs-arrow-left-color-custom-scheme: url('images/metro-icon-left.png');
    --jqx-tabs-arrow-right-color-custom-scheme: url('images/metro-icon-right.png');
    --jqx-toolbar-background-color-custom-scheme: rgba(255, 255, 255, 1);
-   --jqx-treeview-hovered-tree-item-color-custom-scheme: rgba(7, 173, 7, 1);
+   --jqx-treeview-hovered-tree-item-color-custom-scheme: rgba(51, 51, 51, 1);
    --jqx-treeview-hovered-tree-item-background-color-custom-scheme: rgba(245, 245, 245, 1);
-   --jqx-treeview-selected-tree-item-color-custom-scheme: rgba(85, 139, 47, 1);
-   --jqx-treeview-selected-tree-item-background-color-custom-scheme: rgba(85, 139, 47, 0.2);
+   --jqx-treeview-selected-tree-item-color-custom-scheme: rgba(0, 119, 190, 1);
+   --jqx-treeview-selected-tree-item-background-color-custom-scheme: rgba(0, 119, 190, 0.2);
    --jqx-treeview-arrow-expanded-color-custom-scheme: url('images/metro-icon-down.png');
    --jqx-treeview-arrow-collapsed-color-custom-scheme: url('images/metro-icon-down.png');
 }
@@ -546,7 +546,7 @@
     .jqx-button-custom-scheme.jqx-fill-state-focus.flat {
         box-shadow: none;
         background: rgba(99,0,238,0.15);
-        color: #55882F;
+        color: #0069A8;
     }
 
 .jqx-dropdownlist-state-normal-custom-scheme, .jqx-dropdownlist-state-hover-custom-scheme, .jqx-dropdownlist-state-selected-custom-scheme,
@@ -1288,7 +1288,7 @@
 }
 
 .jqx-checkbox-check-checked-custom-scheme {
-    background: transparent url(images/material_check_white.png) center center no-repeat;
+    background: transparent url(images/custom-scheme_check_white.png) center center no-repeat;
 }
 .jqx-checkbox-check-indeterminate-custom-scheme {
     width:14px !important;
@@ -1568,11 +1568,9 @@
 .jqx-scheduler-work-time-cell-custom-scheme, .jqx-scheduler-not-work-time-cell-custom-scheme {
     border-color: var(--jqx-scheduler-border-color-custom-scheme) !important; 
 }
-
 .jqx-scheduler-not-work-time-cell-custom-scheme {
     background-color: var(--jqx-scheduler-not-work-time-cells-color-custom-scheme);
 }
-
 .jqx-scheduler-cell-hover-custom-scheme {
     border-color: var(--jqx-scheduler-hovered-cell-border-color-custom-scheme) !important;
     background: var(--jqx-scheduler-hovered-cell-background-color-custom-scheme) !important;
@@ -1687,7 +1685,7 @@
 }
 
 .jqx-grid-column-sortascbutton-custom-scheme, .jqx-expander-arrow-bottom-custom-scheme, .jqx-window-collapse-button-custom-scheme, .jqx-menu-item-arrow-up-custom-scheme, .jqx-menu-item-arrow-up-selected-custom-scheme, .jqx-menu-item-arrow-top-up-custom-scheme, .jqx-icon-arrow-up-custom-scheme, .jqx-icon-arrow-up-hover-custom-scheme, .jqx-icon-arrow-up-selected-custom-scheme {
-    background-image: url('images/material-icon-up.png');
+    background-image: url('images/custom-scheme-icon-up.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1707,7 +1705,7 @@
 }
 
 .jqx-icon-arrow-left-custom-scheme, .jqx-icon-arrow-down-left-custom-scheme, .jqx-icon-arrow-left-selected-custom-scheme {
-    background-image: url('images/material-icon-left.png');
+    background-image: url('images/custom-scheme-icon-left.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1725,7 +1723,7 @@
 }
 
 .jqx-widget-custom-scheme .jqx-grid-group-collapse-custom-scheme, .jqx-grid-group-collapse-custom-scheme, .jqx-icon-arrow-right-custom-scheme, .jqx-icon-arrow-right-hover-custom-scheme, .jqx-icon-arrow-right-selected-custom-scheme {
-    background-image: url('images/material-icon-right.png');
+    background-image: url('images/custom-scheme-icon-right.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1791,6 +1789,7 @@
 .jqx-grid-pager-custom-scheme .jqx-icon-arrow-left-selected-custom-scheme {
     background-image: var(--jqx-grid-arrow-left-selected-color-custom-scheme);
 }
+
 .jqx-grid-pager-custom-scheme .jqx-icon-arrow-right-custom-scheme {
     background-image: var(--jqx-grid-arrow-right-color-custom-scheme);
 }
@@ -1819,7 +1818,7 @@
 }
 
 .jqx-tree-item-arrow-collapse-rtl-custom-scheme, .jqx-tree-item-arrow-collapse-hover-rtl-custom-scheme {
-    background-image: url(images/material-icon-left.png);
+    background-image: url(images/custom-scheme-icon-left.png);
 }
 
 .jqx-menu-item-arrow-left-selected-custom-scheme {
@@ -2135,10 +2134,15 @@ textarea:focus ~ .jqx-input-bar:before,
     color: var(--jqx-hovered-state-text-color-custom-scheme);
 }
 
+.jqx-dropdownlist-state-selected-custom-scheme {
+    background-color: var(--jqx-accent-color-custom-scheme);
+    color: var(--jqx-background-color-custom-scheme);
+}
+
 .jqx-expander-header-custom-scheme .jqx-icon-arrow-up {
    transform: rotate(180deg);
    transition: transform 0.2s ease-out;
-    background-image: url('images/material-icon-down.png');
+    background-image: url('images/custom-scheme-icon-down.png');
 }
 
 .jqx-expander-arrow-top-custom-scheme {
@@ -2329,7 +2333,6 @@ input[type="text"].jqx-input-custom-scheme:-ms-input-placeholder, input[type="te
     border-top-color: transparent;
     padding:5px;
 }
-
 .jqx-tabs-bar-custom-scheme {
     position: absolute;
     bottom: 0;
@@ -2386,7 +2389,7 @@ input[type="text"].jqx-input-custom-scheme:-ms-input-placeholder, input[type="te
     font-size:12px;
 }
 .jqx-grid-column-menubutton-custom-scheme {
-    background-image: url('images/material-icon-down.png');
+    background-image: url('images/custom-scheme-icon-down.png');
 }
 
 .jqx-tabs-close-button-custom-scheme {
@@ -2429,57 +2432,57 @@ input[type="text"].jqx-input-custom-scheme:-ms-input-placeholder, input[type="te
 }
 
 .jqx-grid-group-collapse-custom-scheme {
-    background-image: url(images/material-icon-right.png);
+    background-image: url(images/custom-scheme-icon-right.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
 .jqx-grid-group-collapse-rtl-custom-scheme {
     padding-right: 0px;
-    background-image: url(images/material-icon-left.png);
+    background-image: url(images/custom-scheme-icon-left.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
 .jqx-grid-group-expand-custom-scheme, .jqx-grid-group-expand-rtl-custom-scheme {
     padding-right: 0px;
-    background-image: url(images/material-icon-down.png);
+    background-image: url(images/custom-scheme-icon-down.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
 .jqx-icon-arrow-first-custom-scheme {
-    background-image: url('images/material-icon-first.png');
+    background-image: url('images/custom-scheme-icon-first.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jqx-icon-arrow-last-custom-scheme {
-    background-image: url('images/material-icon-last.png');
+    background-image: url('images/custom-scheme-icon-last.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jqx-icon-arrow-first-hover-custom-scheme {
-    background-image: url('images/material-icon-first.png');
+    background-image: url('images/custom-scheme-icon-first.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jqx-icon-arrow-last-hover-custom-scheme {
-    background-image: url('images/material-icon-last.png');
+    background-image: url('images/custom-scheme-icon-last.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jqx-icon-arrow-first-selected-custom-scheme {
-    background-image: url('images/material-icon-first.png');
+    background-image: url('images/custom-scheme-icon-first.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jqx-icon-arrow-last-selected-custom-scheme {
-    background-image: url('images/material-icon-last.png');
+    background-image: url('images/custom-scheme-icon-last.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -2511,61 +2514,54 @@ input[type="text"].jqx-input-custom-scheme:-ms-input-placeholder, input[type="te
 }
 
 .jqx-primary .jqx-icon-arrow-down-custom-scheme, .jqx-warning .jqx-icon-arrow-down-custom-scheme, .jqx-danger .jqx-icon-arrow-down-custom-scheme, .jqx-success .jqx-icon-arrow-down-custom-scheme, .jqx-info .jqx-icon-arrow-down-custom-scheme {
-    background-image: url('images/material-icon-down.png');
+    background-image: url('images/custom-scheme-icon-down.png');
 }
 
 .jqx-primary .jqx-icon-arrow-down-selected-custom-scheme, .jqx-warning .jqx-icon-arrow-down-selected-custom-scheme, .jqx-danger .jqx-icon-arrow-down-selected-custom-scheme, .jqx-success .jqx-icon-arrow-down-selected-custom-scheme, .jqx-info .jqx-icon-arrow-down-selected-custom-scheme {
-    background-image: url('images/material-icon-down.png');
+    background-image: url('images/custom-scheme-icon-down.png');
 }
 
 .jqx-primary .jqx-icon-arrow-down-hover-custom-scheme, .jqx-warning .jqx-icon-arrow-down-hover-custom-scheme, .jqx-danger .jqx-icon-arrow-down-hover-custom-scheme, .jqx-success .jqx-icon-arrow-down-hover-custom-scheme, .jqx-info .jqx-icon-arrow-down-hover-custom-scheme {
-    background-image: url('images/material-icon-down.png');
+    background-image: url('images/custom-scheme-icon-down.png');
 }
 
 .jqx-primary .jqx-icon-arrow-up-custom-scheme, .jqx-warning .jqx-icon-arrow-up-custom-scheme, .jqx-danger .jqx-icon-arrow-up-custom-scheme, .jqx-success .jqx-icon-arrow-up-custom-scheme, .jqx-info .jqx-icon-arrow-up-custom-scheme {
-    background-image: url('images/material-icon-up.png');
+    background-image: url('images/custom-scheme-icon-up.png');
 }
 
 .jqx-primary .jqx-icon-arrow-up-selected-custom-scheme, .jqx-warning .jqx-icon-arrow-up-selected-custom-scheme, .jqx-danger .jqx-icon-arrow-up-selected-custom-scheme, .jqx-success .jqx-icon-arrow-up-selected-custom-scheme, .jqx-info .jqx-icon-arrow-up-selected-custom-scheme {
-    background-image: url('images/material-icon-up.png');
+    background-image: url('images/custom-scheme-icon-up.png');
 }
 
 .jqx-primary .jqx-icon-arrow-up-hover-custom-scheme, .jqx-warning .jqx-icon-arrow-up-hover-custom-scheme, .jqx-danger .jqx-icon-arrow-up-hover-custom-scheme, .jqx-success .jqx-icon-arrow-up-hover-custom-scheme, .jqx-info .jqx-icon-arrow-up-hover-custom-scheme {
-    background-image: url('images/material-icon-up.png');
+    background-image: url('images/custom-scheme-icon-up.png');
 }
 
 
 .jqx-primary .jqx-icon-arrow-left-custom-scheme, .jqx-warning .jqx-icon-arrow-left-custom-scheme, .jqx-danger .jqx-icon-arrow-left-custom-scheme, .jqx-success .jqx-icon-arrow-left-custom-scheme, .jqx-info .jqx-icon-arrow-left-custom-scheme {
-    background-image: url('images/material-icon-left.png');
+    background-image: url('images/custom-scheme-icon-left.png');
 }
 
 .jqx-primary .jqx-icon-arrow-left-selected-custom-scheme, .jqx-warning .jqx-icon-arrow-left-selected-custom-scheme, .jqx-danger .jqx-icon-arrow-left-selected-custom-scheme, .jqx-success .jqx-icon-arrow-left-selected-custom-scheme, .jqx-info .jqx-icon-arrow-left-selected-custom-scheme {
-    background-image: url('images/material-icon-left.png');
+    background-image: url('images/custom-scheme-icon-left.png');
 }
 
 .jqx-primary .jqx-icon-arrow-left-hover-custom-scheme, .jqx-warning .jqx-icon-arrow-left-hover-custom-scheme, .jqx-danger .jqx-icon-arrow-left-hover-custom-scheme, .jqx-success .jqx-icon-arrow-left-hover-custom-scheme, .jqx-info .jqx-icon-arrow-left-hover-custom-scheme {
-    background-image: url('images/material-icon-left.png');
+    background-image: url('images/custom-scheme-icon-left.png');
 }
 
 .jqx-primary .jqx-icon-arrow-right-custom-scheme, .jqx-warning .jqx-icon-arrow-right-custom-scheme, .jqx-danger .jqx-icon-arrow-right-custom-scheme, .jqx-success .jqx-icon-arrow-right-custom-scheme, .jqx-info .jqx-icon-arrow-right-custom-scheme {
-    background-image: url('images/material-icon-right.png');
+    background-image: url('images/custom-scheme-icon-right.png');
 }
 
 .jqx-primary .jqx-icon-arrow-right-selected-custom-scheme, .jqx-warning .jqx-icon-arrow-right-selected-custom-scheme, .jqx-danger .jqx-icon-arrow-right-selected-custom-scheme, .jqx-success .jqx-icon-arrow-right-selected-custom-scheme, .jqx-info .jqx-icon-arrow-right-selected-custom-scheme {
-    background-image: url('images/material-icon-right.png');
+    background-image: url('images/custom-scheme-icon-right.png');
 }
 
 .jqx-primary .jqx-icon-arrow-right-hover-custom-scheme, .jqx-warning .jqx-icon-arrow-right-hover-custom-scheme, .jqx-danger .jqx-icon-arrow-right-hover-custom-scheme, .jqx-success .jqx-icon-arrow-right-hover-custom-scheme, .jqx-info .jqx-icon-arrow-right-hover-custom-scheme {
-    background-image: url('images/material-icon-right.png');
+    background-image: url('images/custom-scheme-icon-right.png');
 }
 
-.jqx-icon-arrow-down-hover-custom-scheme {
-    background-image: var(--jqx-arrow-down-hovered-color-custom-scheme);
-}
-
-.jqx-icon-arrow-down-selected-custom-scheme {
-    background-image: var(--jqx-arrow-down-selected-color-custom-scheme);
-}
 
 /* Ripple effect */
 .ripple {

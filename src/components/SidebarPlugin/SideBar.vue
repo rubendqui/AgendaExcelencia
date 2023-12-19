@@ -7,7 +7,7 @@
       <div class="logo">
         <a href="#" class="simple-text logo__container">
             <div class="logo-img">
-                <img src="img/vue-logo.png" alt="">
+                <img src="img/logoministerio.jpg" alt="">
             </div>
           {{title}}
         </a>
@@ -47,7 +47,7 @@
       },
       backgroundColor: {
         type: String,
-        default: 'black',
+        default: 'blue',
         validator: (value) => {
           let acceptedValues = ['', 'blue', 'azure', 'green', 'orange', 'red', 'purple', 'black']
           return acceptedValues.indexOf(value) !== -1
@@ -55,7 +55,7 @@
       },
       backgroundImage: {
         type: String,
-        default: 'img/sidebar-5.jpg'
+        default: 'img/calendar.PNG'
       },
       activeColor: {
         type: String,

@@ -1,8 +1,8 @@
 <template>
   <JqxScheduler ref='myScheduler'
-      :width='getWidth' :height='600' :source='dataAdapter' :date='date' :showLegend='true' :view='"agendaView"'
+      :width='getWidth' height='85%' :source='dataAdapter' :date='date' :showLegend='true' :view='"monthView"'
       :appointmentDataFields='appointmentDataFields' :resources='resources' :views='views' :dayNameFormat='"abbr"'
-      :theme='"custom-scheme"'
+      :theme='"custom-scheme"' :contextMenuCreate="contextMenuCreate"
   />
 </template>
 <script>
@@ -23,7 +23,8 @@
                   description: 'description',
                   location: 'location',
                   subject: 'subject',
-                  resourceId: 'calendar'
+                  resourceId: 'calendar',
+                  esBis: 'esBis'
               },
               resources:
               {
@@ -115,7 +116,9 @@
                       { name: 'subject', type: 'string' },
                       { name: 'calendar', type: 'string' },
                       { name: 'start', type: 'date' },
-                      { name: 'end', type: 'date' }
+                      { name: 'end', type: 'date' },
+                      { name: 'esBis', type: 'boolean' }
+
                   ],
                   id: 'id',
                   localData: generateAppointments()
@@ -124,6 +127,14 @@
       },
       mounted: function () {
           this.$refs.myScheduler.ensureAppointmentVisible('id1');
+      },
+    methods: {
+        contextMenuCreate: function (menu, settings) {
+        var source = settings.source;
+        menu.jqxMenu('hideItem', 'createAppointment');
+         source.push({ label: "Nuevo Turno", id: "NuevoTurno" });
+        source.push({ label: "Editar Turno", id: "EditarTurno" });
       }
+    }
   }
 </script>

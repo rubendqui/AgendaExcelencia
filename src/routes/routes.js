@@ -11,12 +11,11 @@ import Icons from 'src/pages/Icons.vue'
 import Maps from 'src/pages/Maps.vue'
 import Notifications from 'src/pages/Notifications.vue'
 import SchedulerComponent from 'src/components/SchedulerComponent.vue'
-
+import Login from '../layout/Login.vue'
 const routes = [
   {
     path: '/',
-    component: DashboardLayout,
-    redirect: '/admin/overview'
+    component: Login
   },
   {
     path: '/admin',
